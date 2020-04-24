@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Велосипед on Неёлов Дмитрий</title>
+    <link>http://example.org/tags/%D0%B2%D0%B5%D0%BB%D0%BE%D1%81%D0%B8%D0%BF%D0%B5%D0%B4/</link>
+    <description>Recent content in Велосипед on Неёлов Дмитрий</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Неёлов Дмитрий. Все права защищены.</copyright>
+    <lastBuildDate>Sat, 01 Jun 2019 16:17:08 +0300</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/%D0%B2%D0%B5%D0%BB%D0%BE%D1%81%D0%B8%D0%BF%D0%B5%D0%B4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Как проехать свой первый бревет</title>
+      <link>http://example.org/posts/my-first-post/</link>
+      <pubDate>Sat, 01 Jun 2019 16:17:08 +0300</pubDate>
+      
+      <guid>http://example.org/posts/my-first-post/</guid>
+      <description>Доброго времени суток! Это первая статья в моем блоге. В этом посте я хочу рассказать о своем первом бревете. Как готовился, как ехал и какие выводы по результатам бревета можно сделать.
+  </description>
+    </item>
+    
+  </channel>
+</rss>
