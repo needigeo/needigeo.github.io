@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sql on Неёлов Дмитрий</title>
+    <link>http://neelov.pro/tags/sql/</link>
+    <description>Recent content in sql on Неёлов Дмитрий</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Неёлов Дмитрий. Все права защищены.</copyright>
+    <lastBuildDate>Tue, 28 Apr 2020 14:12:54 +0300</lastBuildDate>
+    
+	<atom:link href="http://neelov.pro/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Как в MS SQL загрузить данные из CSV</title>
+      <link>http://neelov.pro/posts/how_to_bulk_insert_from_csv/</link>
+      <pubDate>Tue, 28 Apr 2020 14:12:54 +0300</pubDate>
+      
+      <guid>http://neelov.pro/posts/how_to_bulk_insert_from_csv/</guid>
+      <description>Для того чтобы загрузить данные из CSV, можно воспользоваться следующим куском кода, предварительно заменив CSVTest на имя своей таблицы, &amp;lsquo;c:\csvtest.txt&amp;rsquo; на путь к своему файлу CSV. Если разделитель полей в Вашем CSV отличается от ; замените разделитель в параметре FIELDTERMINATOR.
+BULK INSERT CSVTest FROM &amp;#39;c:\csvtest.txt&amp;#39; WITH ( FIELDTERMINATOR = &amp;#39;;&amp;#39;, ROWTERMINATOR = &amp;#39;\n&amp;#39; ) </description>
+    </item>
+    
+  </channel>
+</rss>
