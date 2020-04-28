@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Неёлов Дмитрий. Все права защищены.</copyright>
-    <lastBuildDate>Sun, 26 Apr 2020 01:10:46 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2020 14:12:54 +0300</lastBuildDate>
     
 	<atom:link href="http://neelov.pro/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Как в MS SQL загрузить данные из CSV</title>
+      <link>http://neelov.pro/posts/how_to_bulk_insert_from_csv/</link>
+      <pubDate>Tue, 28 Apr 2020 14:12:54 +0300</pubDate>
+      
+      <guid>http://neelov.pro/posts/how_to_bulk_insert_from_csv/</guid>
+      <description>Для того чтобы загрузить данные из CSV, можно воспользоваться следующим куском кода, предварительно заменив CSVTest на имя своей таблицы, &amp;lsquo;c:\csvtest.txt&amp;rsquo; на путь к своему файлу CSV. Если разделитель полей в Вашем CSV отличается от ; замените разделитель в параметре FIELDTERMINATOR.
+BULK INSERT CSVTest FROM &amp;#39;c:\csvtest.txt&amp;#39; WITH ( FIELDTERMINATOR = &amp;#39;;&amp;#39;, ROWTERMINATOR = &amp;#39;\n&amp;#39; ) </description>
+    </item>
     
     <item>
       <title>Три правила поддерживать физическую форму при работе в офисе БЕСПЛАТНО.</title>
