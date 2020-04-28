@@ -19,7 +19,7 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Как в MS SQL загрузить данные из CSV - Неёлов Дмитрий</title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta itemprop="name" content="Как в MS SQL загрузить данные из CSV">
-<meta itemprop="description" content="Для того чтобы загрузить данные из CSV, можно воспользоваться следующим куском кода, предварительно заменив CSVTest на имя своей таблицы, &lsquo;c:\csvtest.txt&rsquo; на путь к своему файлу CSV. Если разделитель полей в Вашем CSV отличается от ; замените разделитель в параметре FIELDTERMINATOR.
+<meta itemprop="description" content="Для того, чтобы загрузить данные из CSV, можно воспользоваться следующим куском кода, предварительно заменив CSVTest на имя своей таблицы, &lsquo;c:\csvtest.txt&rsquo; на путь к своему файлу CSV. Если разделитель полей в Вашем CSV отличается от ; замените разделитель в параметре FIELDTERMINATOR.
 BULK INSERT CSVTest FROM &#39;c:\csvtest.txt&#39; WITH ( FIELDTERMINATOR = &#39;;&#39;, ROWTERMINATOR = &#39;\n&#39; ) ">
 <meta itemprop="datePublished" content="2020-04-28T14:12:54&#43;03:00" />
 <meta itemprop="dateModified" content="2020-04-28T14:12:54&#43;03:00" />
@@ -27,8 +27,8 @@ BULK INSERT CSVTest FROM &#39;c:\csvtest.txt&#39; WITH ( FIELDTERMINATOR = &#39;
 
 
 
-<meta itemprop="keywords" content="sql," /><meta property="og:title" content="Как в MS SQL загрузить данные из CSV" />
-<meta property="og:description" content="Для того чтобы загрузить данные из CSV, можно воспользоваться следующим куском кода, предварительно заменив CSVTest на имя своей таблицы, &lsquo;c:\csvtest.txt&rsquo; на путь к своему файлу CSV. Если разделитель полей в Вашем CSV отличается от ; замените разделитель в параметре FIELDTERMINATOR.
+<meta itemprop="keywords" content="sql`," /><meta property="og:title" content="Как в MS SQL загрузить данные из CSV" />
+<meta property="og:description" content="Для того, чтобы загрузить данные из CSV, можно воспользоваться следующим куском кода, предварительно заменив CSVTest на имя своей таблицы, &lsquo;c:\csvtest.txt&rsquo; на путь к своему файлу CSV. Если разделитель полей в Вашем CSV отличается от ; замените разделитель в параметре FIELDTERMINATOR.
 BULK INSERT CSVTest FROM &#39;c:\csvtest.txt&#39; WITH ( FIELDTERMINATOR = &#39;;&#39;, ROWTERMINATOR = &#39;\n&#39; ) " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://neelov.pro/posts/how_to_bulk_insert_from_csv/" />
@@ -36,7 +36,7 @@ BULK INSERT CSVTest FROM &#39;c:\csvtest.txt&#39; WITH ( FIELDTERMINATOR = &#39;
 <meta property="article:modified_time" content="2020-04-28T14:12:54+03:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Как в MS SQL загрузить данные из CSV"/>
-<meta name="twitter:description" content="Для того чтобы загрузить данные из CSV, можно воспользоваться следующим куском кода, предварительно заменив CSVTest на имя своей таблицы, &lsquo;c:\csvtest.txt&rsquo; на путь к своему файлу CSV. Если разделитель полей в Вашем CSV отличается от ; замените разделитель в параметре FIELDTERMINATOR.
+<meta name="twitter:description" content="Для того, чтобы загрузить данные из CSV, можно воспользоваться следующим куском кода, предварительно заменив CSVTest на имя своей таблицы, &lsquo;c:\csvtest.txt&rsquo; на путь к своему файлу CSV. Если разделитель полей в Вашем CSV отличается от ; замените разделитель в параметре FIELDTERMINATOR.
 BULK INSERT CSVTest FROM &#39;c:\csvtest.txt&#39; WITH ( FIELDTERMINATOR = &#39;;&#39;, ROWTERMINATOR = &#39;\n&#39; ) "/>
 <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" media="screen" href="http://neelov.pro/css/normalize.css" />
@@ -118,7 +118,7 @@ BULK INSERT CSVTest FROM &#39;c:\csvtest.txt&#39; WITH ( FIELDTERMINATOR = &#39;
 			</div>
 					
 			<div class="markdown">
-				<p>Для того чтобы загрузить данные из CSV, можно воспользоваться следующим куском кода, предварительно заменив CSVTest на имя своей таблицы, &lsquo;c:\csvtest.txt&rsquo; на путь к своему файлу CSV. Если разделитель полей в Вашем CSV отличается от ; замените разделитель в параметре FIELDTERMINATOR.</p>
+				<p>Для того, чтобы загрузить данные из CSV, можно воспользоваться следующим куском кода, предварительно заменив CSVTest на имя своей таблицы, &lsquo;c:\csvtest.txt&rsquo; на путь к своему файлу CSV. Если разделитель полей в Вашем CSV отличается от ; замените разделитель в параметре FIELDTERMINATOR.</p>
 <div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SQL" data-lang="SQL">BULK <span style="color:#00f">INSERT</span> CSVTest
            <span style="color:#00f">FROM</span> <span style="color:#a31515">&#39;</span><span style="color:#a31515">c:\csvtest.txt</span><span style="color:#a31515">&#39;</span>
            <span style="color:#00f">WITH</span>
@@ -134,7 +134,7 @@ BULK INSERT CSVTest FROM &#39;c:\csvtest.txt&#39; WITH ( FIELDTERMINATOR = &#39;
 					
 						<ul class="flat">
 							
-							<li><a href="/tags/sql">sql</a></li>
+							<li><a href="/tags/sql">sql`</a></li>
 							
 						</ul>
 					
