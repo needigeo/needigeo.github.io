@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Неёлов Дмитрий. Все права защищены.</copyright>
-    <lastBuildDate>Tue, 28 Apr 2020 14:12:54 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 16 Jan 2023 04:50:26 +0300</lastBuildDate><atom:link href="http://neelov.pro/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Test Post</title>
+      <link>http://neelov.pro/posts/my-test-post/</link>
+      <pubDate>Mon, 16 Jan 2023 04:50:26 +0300</pubDate>
+      
+      <guid>http://neelov.pro/posts/my-test-post/</guid>
+      <description>ля того, чтобы загрузить данные из CSV, можно воспользоваться следующим куском кода, предварительно заменив CSVTest на имя своей таблицы, &amp;lsquo;c:\csvtest.txt&amp;rsquo; на путь к своему файлу CSV. Если разделитель полей в Вашем CSV отличается от ; замените разделитель в параметре FIELDTERMINATOR.</description>
+    </item>
     
-	<atom:link href="http://neelov.pro/posts/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Secod_champ</title>
+      <link>http://neelov.pro/posts/secod_champ/</link>
+      <pubDate>Mon, 11 Jan 2021 12:46:31 +0300</pubDate>
+      
+      <guid>http://neelov.pro/posts/secod_champ/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Как в MS SQL загрузить данные из CSV</title>
@@ -39,8 +53,7 @@ BULK INSERT CSVTest FROM &amp;#39;c:\csvtest.txt&amp;#39; WITH ( FIELDTERMINATOR
       <guid>http://neelov.pro/posts/my-first-post/</guid>
       <description>Доброго времени суток!
 Это первая статья в моем блоге. В этом посте я хочу поделиться своим опытом после прохождения своего первого велосипедного бревета. Как готовился, как ехал и какие выводы по результатам бревета можно сделать.
-Ниже видео версия для тех, кто любит смотреть и слушать, кому по душе чтение, пролистайте дальше.
-  </description>
+Ниже видео версия для тех, кто любит смотреть и слушать, кому по душе чтение, пролистайте дальше.</description>
     </item>
     
   </channel>

@@ -20,18 +20,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Как в MS SQL загрузить данные из CSV - Неёлов Дмитрий</title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta itemprop="name" content="Как в MS SQL загрузить данные из CSV">
 <meta itemprop="description" content="Для того, чтобы загрузить данные из CSV, можно воспользоваться следующим куском кода, предварительно заменив CSVTest на имя своей таблицы, &lsquo;c:\csvtest.txt&rsquo; на путь к своему файлу CSV. Если разделитель полей в Вашем CSV отличается от ; замените разделитель в параметре FIELDTERMINATOR.
-BULK INSERT CSVTest FROM &#39;c:\csvtest.txt&#39; WITH ( FIELDTERMINATOR = &#39;;&#39;, ROWTERMINATOR = &#39;\n&#39; ) ">
-<meta itemprop="datePublished" content="2020-04-28T14:12:54&#43;03:00" />
-<meta itemprop="dateModified" content="2020-04-28T14:12:54&#43;03:00" />
+BULK INSERT CSVTest FROM &#39;c:\csvtest.txt&#39; WITH ( FIELDTERMINATOR = &#39;;&#39;, ROWTERMINATOR = &#39;\n&#39; ) "><meta itemprop="datePublished" content="2020-04-28T14:12:54+03:00" />
+<meta itemprop="dateModified" content="2020-04-28T14:12:54+03:00" />
 <meta itemprop="wordCount" content="54">
-
-
-
 <meta itemprop="keywords" content="sql," /><meta property="og:title" content="Как в MS SQL загрузить данные из CSV" />
 <meta property="og:description" content="Для того, чтобы загрузить данные из CSV, можно воспользоваться следующим куском кода, предварительно заменив CSVTest на имя своей таблицы, &lsquo;c:\csvtest.txt&rsquo; на путь к своему файлу CSV. Если разделитель полей в Вашем CSV отличается от ; замените разделитель в параметре FIELDTERMINATOR.
 BULK INSERT CSVTest FROM &#39;c:\csvtest.txt&#39; WITH ( FIELDTERMINATOR = &#39;;&#39;, ROWTERMINATOR = &#39;\n&#39; ) " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://neelov.pro/posts/how_to_bulk_insert_from_csv/" />
+<meta property="og:url" content="http://neelov.pro/posts/how_to_bulk_insert_from_csv/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-04-28T14:12:54+03:00" />
 <meta property="article:modified_time" content="2020-04-28T14:12:54+03:00" />
 <meta name="twitter:card" content="summary"/>
@@ -69,12 +65,12 @@ BULK INSERT CSVTest FROM &#39;c:\csvtest.txt&#39; WITH ( FIELDTERMINATOR = &#39;
 	
 		<div class="avatar">
 			<a href="http://neelov.pro/">
-				<img src="img/neelov3.png" alt="Неёлов Дмитрий" />
+				<img src="img/neelov_ava.jpg" alt="Неёлов Дмитрий" />
 			</a>
 		</div>
 	
 	<h1 class="site-title"><a href="http://neelov.pro/">Неёлов Дмитрий</a></h1>
-	<div class="site-description"><p>В этом блоге будут статьи связанные с моей работой и хобби</p><nav class="nav social">
+	<div class="site-description"><p>В этом блоге я выкладываю статьи и заметки связанные с моей работой и хобби</p><nav class="nav social">
 			<ul class="flat"><li><a href="https://github.com/needigeo" title="Github"><i data-feather="github"></i></a></li><li><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></li></ul>
 		</nav><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></div>
 
@@ -86,7 +82,7 @@ BULK INSERT CSVTest FROM &#39;c:\csvtest.txt&#39; WITH ( FIELDTERMINATOR = &#39;
 			</li>
 			
 			<li>
-				<a href="/posts">Все статьи</a>
+				<a href="/posts">Статьи</a>
 			</li>
 			
 			<li>
@@ -119,14 +115,14 @@ BULK INSERT CSVTest FROM &#39;c:\csvtest.txt&#39; WITH ( FIELDTERMINATOR = &#39;
 					
 			<div class="markdown">
 				<p>Для того, чтобы загрузить данные из CSV, можно воспользоваться следующим куском кода, предварительно заменив CSVTest на имя своей таблицы, &lsquo;c:\csvtest.txt&rsquo; на путь к своему файлу CSV. Если разделитель полей в Вашем CSV отличается от ; замените разделитель в параметре FIELDTERMINATOR.</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SQL" data-lang="SQL">BULK <span style="color:#00f">INSERT</span> CSVTest
-           <span style="color:#00f">FROM</span> <span style="color:#a31515">&#39;</span><span style="color:#a31515">c:\csvtest.txt</span><span style="color:#a31515">&#39;</span>
-           <span style="color:#00f">WITH</span>
-           (
-               FIELDTERMINATOR = <span style="color:#a31515">&#39;</span><span style="color:#a31515">;</span><span style="color:#a31515">&#39;</span>,
-               ROWTERMINATOR = <span style="color:#a31515">&#39;</span><span style="color:#a31515">\n</span><span style="color:#a31515">&#39;</span>
-           )
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-SQL" data-lang="SQL"><span style="display:flex;"><span>BULK <span style="color:#00f">INSERT</span> CSVTest
+</span></span><span style="display:flex;"><span>           <span style="color:#00f">FROM</span> <span style="color:#a31515">&#39;c:\csvtest.txt&#39;</span>
+</span></span><span style="display:flex;"><span>           <span style="color:#00f">WITH</span>
+</span></span><span style="display:flex;"><span>           (
+</span></span><span style="display:flex;"><span>               FIELDTERMINATOR = <span style="color:#a31515">&#39;;&#39;</span>,
+</span></span><span style="display:flex;"><span>               ROWTERMINATOR = <span style="color:#a31515">&#39;\n&#39;</span>
+</span></span><span style="display:flex;"><span>           )
+</span></span></code></pre></div>
 			</div>
 
 			<div class="tags">

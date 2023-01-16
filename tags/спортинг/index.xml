@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Спортинг on Неёлов Дмитрий</title>
+    <link>http://neelov.pro/tags/%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%BD%D0%B3/</link>
+    <description>Recent content in Спортинг on Неёлов Дмитрий</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Неёлов Дмитрий. Все права защищены.</copyright>
+    <lastBuildDate>Mon, 16 Jan 2023 04:50:26 +0300</lastBuildDate><atom:link href="http://neelov.pro/tags/%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%BD%D0%B3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Test Post</title>
+      <link>http://neelov.pro/posts/my-test-post/</link>
+      <pubDate>Mon, 16 Jan 2023 04:50:26 +0300</pubDate>
+      
+      <guid>http://neelov.pro/posts/my-test-post/</guid>
+      <description>ля того, чтобы загрузить данные из CSV, можно воспользоваться следующим куском кода, предварительно заменив CSVTest на имя своей таблицы, &amp;lsquo;c:\csvtest.txt&amp;rsquo; на путь к своему файлу CSV. Если разделитель полей в Вашем CSV отличается от ; замените разделитель в параметре FIELDTERMINATOR.</description>
+    </item>
+    
+    <item>
+      <title>Secod_champ</title>
+      <link>http://neelov.pro/posts/secod_champ/</link>
+      <pubDate>Mon, 11 Jan 2021 12:46:31 +0300</pubDate>
+      
+      <guid>http://neelov.pro/posts/secod_champ/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
