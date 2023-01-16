@@ -7,25 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Неёлов Дмитрий. Все права защищены.</copyright>
-    <lastBuildDate>Mon, 16 Jan 2023 04:50:26 +0300</lastBuildDate><atom:link href="http://neelov.pro/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My Test Post</title>
-      <link>http://neelov.pro/posts/my-test-post/</link>
-      <pubDate>Mon, 16 Jan 2023 04:50:26 +0300</pubDate>
-      
-      <guid>http://neelov.pro/posts/my-test-post/</guid>
-      <description>ля того, чтобы загрузить данные из CSV, можно воспользоваться следующим куском кода, предварительно заменив CSVTest на имя своей таблицы, &amp;lsquo;c:\csvtest.txt&amp;rsquo; на путь к своему файлу CSV. Если разделитель полей в Вашем CSV отличается от ; замените разделитель в параметре FIELDTERMINATOR.</description>
-    </item>
-    
-    <item>
-      <title>Secod_champ</title>
-      <link>http://neelov.pro/posts/secod_champ/</link>
-      <pubDate>Mon, 11 Jan 2021 12:46:31 +0300</pubDate>
-      
-      <guid>http://neelov.pro/posts/secod_champ/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Tue, 28 Apr 2020 14:12:54 +0300</lastBuildDate><atom:link href="http://neelov.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Как в MS SQL загрузить данные из CSV</title>
       <link>http://neelov.pro/posts/how_to_bulk_insert_from_csv/</link>
@@ -43,15 +25,6 @@ BULK INSERT CSVTest FROM &amp;#39;c:\csvtest.txt&amp;#39; WITH ( FIELDTERMINATOR
       
       <guid>http://neelov.pro/posts/sport_and_office_job/</guid>
       <description>Я работую в офисе. Начинал простым аналитиком и программистом, теперь я руководитель отдела разработки плюс есть свои клиенты с которыми работаю как ИП. У меня есть семья и двое детей. Наша современная жизнь не сильно стимулирует физическую активность. Нам теперь не нужно днями и ночами охотится на мамонтом или заниматься собирательством грибов и ягод в лесу. Нет необходимости нужды ходить пешком. &amp;ldquo;Мамонта&amp;rdquo; можно купить в магазине у дома, а добраться до нужного места или до работы возможно на общественном транспорте или личном автомобиле, в редкой семье их теперь меньше двух.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://neelov.pro/about/</link>
-      <pubDate>Fri, 24 Apr 2020 02:54:38 +0300</pubDate>
-      
-      <guid>http://neelov.pro/about/</guid>
-      <description></description>
     </item>
     
     <item>
